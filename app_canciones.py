@@ -21,12 +21,12 @@ while True:
     match (opcion):
         case "1":
             os.system("cls")
-
+            mc.agregar_cancion()
             os.system("pause")
 
         case "2":
             os.system("cls")
-
+            mc.mostrar_canciones()
             os.system("pause")
 
         case "3":
